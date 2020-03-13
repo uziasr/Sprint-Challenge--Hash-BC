@@ -25,7 +25,7 @@ def get_indices_of_item_weights(weights, length, limit):
             weight_index = hash_table_retrieve(ht, weight)
             if difference_index > weight_index:
                 return_tuple =(difference_index, weight_index)
-                return  return_tuple
+                return return_tuple
             else:
                 return_tuple = (weight_index, difference_index)
                 print("it gets this far", return_tuple)
